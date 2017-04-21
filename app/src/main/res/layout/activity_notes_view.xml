@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_notes_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.todo.NotesViewActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/expense_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        tools:context="com.example.skand.tasker.ExpenseView">
+        <ImageView
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:layout_weight="2"
+            android:src="@mipmap/ic_launcher"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:ems="10"
+            android:id="@+id/item"
+            android:layout_weight="1"
+            android:text="Title"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textStyle="normal|bold"
+            android:textAlignment="center" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:ems="10"
+            android:id="@+id/notesViewTitle"
+            android:layout_weight="1" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:ems="10"
+            android:id="@+id/Date"
+            android:layout_weight="1"
+            android:text="Date"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textStyle="normal|bold"
+            android:textAlignment="center" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:ems="10"
+            android:id="@+id/notesViewDate"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:ems="10"
+            android:id="@+id/Subject"
+            android:layout_weight="1"
+            android:text="Subject"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textStyle="normal|bold"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:ems="10"
+            android:id="@+id/notesViewSubject"
+            android:layout_weight="1" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:ems="10"
+            android:id="@+id/description"
+            android:layout_weight="1"
+            android:text="Descripiton"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textStyle="normal|bold"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:ems="10"
+            android:id="@+id/notesViewDescription"
+            android:layout_weight="1" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:ems="10"
+            android:id="@+id/Alarm"
+            android:layout_weight="1"
+            android:text="Alarm"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textStyle="normal|bold"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:ems="10"
+            android:id="@+id/notesViewAlarm"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+
+
+</ScrollView>
